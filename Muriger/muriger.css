@@ -72,6 +72,11 @@
 }
 .dropdown-menu-right {
   position: fixed;
+  top: 5%;
+  right: 0%;
+}
+.btn {
+  position: fixed;
   top: 0%;
   right: 0%;
 }
