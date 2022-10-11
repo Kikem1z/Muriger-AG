@@ -10,12 +10,7 @@
     padding: 10em;
 }
 
-.nav-bar {
-  position: fixed;
-    top: 0;
-    right: 0;
-    padding: 10em;
-}
+
 
 .footer-basic {
   padding:40px 0;
@@ -75,4 +70,16 @@
   font-size:13px;
   color:#aaa;
   margin-bottom:0;
+}
+.dropdown-menu-right {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10em;
 }
