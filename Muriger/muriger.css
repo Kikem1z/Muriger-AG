@@ -5,7 +5,7 @@
 }
 #suche {
 	width: 10em;
-	border: 2px solid #999;
+	border: 2px solid black;
 	border-radius: 0.5em;
 	font-size: 1.2em;
 	transition: width 0.5s ease-in-out;
@@ -27,6 +27,12 @@
   font-style: bold;
   margin-left: 2%;
 }
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+
 #nav-bar {
     position: fixed;
     top: 0;
