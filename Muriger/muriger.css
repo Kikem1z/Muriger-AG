@@ -5,10 +5,16 @@
 
 #nav-bar {
     position: fixed;
-    width: 100%;
     top: 0;
-    left: 0;
-    padding: 1em;
+    right: 0;
+    padding: 10em;
+}
+
+.nav-bar {
+  position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10em;
 }
 
 .footer-basic {
