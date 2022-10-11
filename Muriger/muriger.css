@@ -3,6 +3,20 @@
     display: flex;
     justify-content: center;
 }
+#suche {
+	width: 10em;
+	border: 2px solid #999;
+	border-radius: 0.5em;
+	font-size: 1.2em;
+	transition: width 0.5s ease-in-out;
+}
+
+#suche:focus {
+	font-size: 1.5em;
+	width: 50%;
+}
+
+
 .headerbg {
   background-color: lightgrey;
   height: 150px;
@@ -115,10 +129,6 @@
 .wrapper {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-}
-.wrapper2 {
-  display: flex;
   flex-wrap: wrap;
 }
 
