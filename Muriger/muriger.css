@@ -70,3 +70,8 @@
   color:#aaa;
   margin-bottom:0;
 }
+.dropdown-menu-right {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
