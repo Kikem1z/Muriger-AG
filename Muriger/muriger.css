@@ -130,11 +130,13 @@
 
 
 .saleBox {
-  width: 300px;
-  height: 300px;
-  border: 1px solid blue;
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
   margin-left: 10px;
   margin-bottom: 15px;
+  text-align: center;
+  color: red;
 }
 
 .newsImg {
