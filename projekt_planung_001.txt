@@ -1,4 +1,9 @@
 Projektinhalt:
 - Onlineshop:
     Boxshop
--Oben rechts Icon mehrfachauswahl..
+-Oben rechts Icon mehrfachauswahl:
+    -Hands
+    -Info
+    -Legs
+    -Accessoires
+    -Home
