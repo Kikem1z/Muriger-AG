@@ -83,6 +83,7 @@
 }
 
 
+
 .dropdown-menu-right {
   position: fixed;
   top: 5%;
@@ -111,30 +112,14 @@
   border-width: 3px;
   border-color: black;
   }
-.wrapper1 {
+.wrapper {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.sales101 {
-  width: 300px;
-  height: 300px;
-  border: 1px solid blue;
-  margin-left: 10px;
-  margin-bottom: 15px;
-}
-.sales102 {
-  width: 300px;
-  height: 300px;
-  border: 1px solid blue;
-  margin-left: 10px;
-  margin-bottom: 15px;
-}
-.sales103 {
-  width: 300px;
-  height: 300px;
-  border: 1px solid blue;
-  margin-left: 10px;
-  margin-bottom: 15px;
+.wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Sales2 {
@@ -142,28 +127,18 @@
   border-width: 3px;
   border-color: black;
 }
-.wrapper2 {
+
+
+.saleBox {
+  width: 300px;
+  height: 300px;
+  border: 1px solid blue;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.newsImg {
   display: flex;
-  flex-wrap: nowrap;
-}
-.sales201 {
-  width: 300px;
-  height: 300px;
-  border: 1px solid blue;
-  margin-left: 10px;
-  margin-bottom: 15px;
-}
-.sales202 {
-  width: 300px;
-  height: 300px;
-  border: 1px solid blue;
-  margin-left: 10px;
-  margin-bottom: 15px;
-}
-.sales203 {
-  width: 300px;
-  height: 300px;
-  border: 1px solid blue;
-  margin-left: 10px;
-  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
 }
