@@ -1,2 +1,3 @@
 # Muriger-AG
-# Author: Florin Curiger / Enrique Munoz
+# Author: Florin Curiger / Enrique Munoz 
+# Projekt: Eigene Website
