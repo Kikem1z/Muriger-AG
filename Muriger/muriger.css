@@ -106,3 +106,19 @@
   top: 0%;
   right: 0%;
 }
+
+.navigationItem {
+  background-color: lightgrey;
+  
+}
+
+.item1:hover {
+  color: purple;
+  background-color: white;
+}
+
+.dropdownmenu-design {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
