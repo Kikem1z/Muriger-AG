@@ -5,11 +5,12 @@
 
 #nav-bar {
     position: fixed;
-    width: 100%;
     top: 0;
-    left: 0;
-    padding: 1em;
+    right: 0;
+    padding: 10em;
 }
+
+
 
 .footer-basic {
   padding:40px 0;
@@ -71,11 +72,6 @@
   margin-bottom:0;
 }
 .dropdown-menu-right {
-  position: fixed;
-  top: 5%;
-  right: 0%;
-}
-.btn {
   position: fixed;
   top: 0%;
   right: 0%;
