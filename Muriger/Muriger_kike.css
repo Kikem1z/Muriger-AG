@@ -113,6 +113,7 @@
   }
 .wrapper1 {
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
 }
 .saless1 {
@@ -144,6 +145,7 @@
 }
 .wrapper2 {
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
 }
 .saless3 {
@@ -166,4 +168,19 @@
   border: 1px solid blue;
   margin-left: 10px;
   margin-bottom: 15px;
+}
+.saless1text {
+  top: 20%;
+  text-size-adjust: 900;
+}
+
+.Preise {
+  font-size: 50px;
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Preise1 {
+  font-size: 50px;
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
