@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+      <script language="javascript">  //mit language="javascript" gibt man die Programmiersprache an, welche innerhalb des <script>-Tages verwendet werden soll.
+        function ask_for_permission()  //mit dieser funktion wird der vorgang zum abfragen der benachrichtigung vorbereitet
+        {
+          Notification.requestPermission(function(){});
+        }
+
+        function send() {
+          new Notification(document.getElementById('title').value, {  //<!-- hier wird eine neue benachrichtigung erstellt -->
+            body: document.getElementById('name').value + "\n" + document.getElementById('body').value,
+            icon: document.getElementById('icon').value,
+          });
+        }
+        
+        function send1() {
+          new Notification(document.getElementById('title1').value, {  //<!-- hier wird eine neue benachrichtigung erstellt -->
+            body: document.getElementById('name1').value + "\n" + document.getElementById('body1').value,
+            icon: document.getElementById('icon1').value,
+          });
+        }
+
+      </script>
+    </head>
+    <body onload="init();" class="backgroundInsta">
+
+        
+        <div class="input">
+            <h1><u>Instagram Messenger</u></h1>
+            <input type="hidden" id="title" value="Instagram" /><br /> <!-- Was steht in der Benachrichtigung?-->
+            Username:<br>
+            <input id="name" value="Name" /><br />
+            Message:<br>    
+            <textarea id="body" value="message" cols="15" rows="4"></textarea><br />
+            <!--<input id="body" value="Message" cols="35" rows="4"/><br /> <!-- Das Icon der Benachrichtigung-->
+            <input type="hidden" id="icon" value="images/insta.gif" mailto/><br />
+            <!-- Nochmal ein Input-Feld, bei welchem der User einen Text eingeben kann. -->
+            <button onclick="send()">Senden</button>
+            <!-- Der Sende-Button, welcher man anklickt nach bestätigung der Notification-->
+            <!-- Der Text aus den Input-Feldern wird nicht übermittelt, da keine Datenbank angebunden. Dies könnte man mit einem JS machen.-->
+        </div>
+    <br>
+    <br />
+    
+        <!-- nun wird der Button für die Abfrage erstellt. Bei aktivierung des Buttons kommt die anfrage auf Bestätigung von Notifications -->
+        <div class="input">
+            <br><h2><b>1min ago</b></h2>
+            <input type="hidden" id="title1" value="Instagram" /> <!-- Was steht in der Benachrichtigung?-->
+            Username:<br>
+            <input id="name1" value="Name" /><br />
+            Message:<br>    
+            <textarea id="body1" value="message" cols="15" rows="4"></textarea><br />
+            <!--<input id="body" value="Message" cols="35" rows="4"/><br /> <!-- Das Icon der Benachrichtigung-->
+            <input type="hidden" id="icon1" value="images/insta.gif" mailto/><br />
+            <!-- Nochmal ein Input-Feld, bei welchem der User einen Text eingeben kann. -->
+            <button onclick="send1()">Senden</button>
+            <!-- Der Sende-Button, welcher man anklickt nach bestätigung der Notification-->
+            <!-- Der Text aus den Input-Feldern wird nicht übermittelt, da keine Datenbank angebunden. Dies könnte man mit einem JS machen.-->
+            
+        </div>
+        <div>
+            <br>
+            <br>
+            <br>
+            <button id="ask_permission" onclick="ask_for_permission()">Aktivieren</button>  <!-- nun wird der Button für die Abfrage erstellt. Bei aktivierung des Buttons kommt die anfrage auf Bestätigung von Notifications -->
+            <a href="slack.html" class="Link">Slack</a>
+            <br>
+            <br>
+        </div>
+        
+        <footer id="footer">
+            <div class="SocialMedia">
+                <span>FOLLOW US:</span><br>
+                <a href="https://www.instagram.com/flo_04.zh/" target="_blank"><img src="images/Instagram.png" alt="Instagram Follow" class="footerPicture" height="20px" width="auto"></a>
+            </div>
+            <div>
+                    <table class="DesignTable">
+                        <tr>
+                            <td><h3><u>Kontakt</u></h3></td>
+                        </tr>
+                        <tr>
+                            <td>florin.curiger@gmail.com</td>
+                        </tr>
+                        <tr>                            
+                            <td>info@curigerIT.ch</td>
+                        </tr>
+                        <tr>                            
+                            <td>+41 78 975 18 07</td>
+                        </tr>
+                    </table>
+            </div>
+        </footer>
+    </body>
+  </html>
