@@ -281,11 +281,15 @@
   color:#aaa;
   margin-bottom:0;
   }
+
+
+
   .dropdown-menu-right {
   position: fixed;
   top: 5%;
   right: 0%;
   }
+
   .btn {
   position: fixed;
   top: 0%;
@@ -295,6 +299,7 @@
   background-color: lightgrey;
   
   }
+
   .item1:hover {
   color: purple;
   background-color: white;
@@ -304,6 +309,9 @@
   border-width: 0.3%;
   border-color: black;
   }
+
+
+
   .Sales1 {
   border-style: solid;
   border-width: 0.1%;
@@ -315,14 +323,18 @@
   border-width: 0.1%;
   border-color: black;
   }
+  
+  
+
   .wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  display: block;
   }
   
   .saleBox {
+  display: flex;
+  align-items: center;
   width: 30%;
   height: auto;
   border: 1px solid red;
@@ -333,8 +345,11 @@
   }
   
   .saleImg {
+    display: flex;
+    flex-direction: row;
     width: 450px;
     height: auto;
+    object-fit: center;
   }
 
 
