@@ -133,7 +133,8 @@
   .FooterTable {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
     list-style: none;
   }
   
