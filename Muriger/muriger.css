@@ -123,63 +123,27 @@
 
   /* Footer */
   .footer {
-    display: flex;
-    justify-content: center;
     bottom: 0%;
     padding: 10em;
     background-color: darkgray;
     width: 100%;
     height: 100px;
   }
-  .footer-basic {
-  padding: 10 0;
-  background-color:#ffffff;
-  color:#4b4c4d;
+  
+  .FooterTable {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    list-style: none;
   }
-  .footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
-  }
-  .footer-basic li {
-  padding:0 10px;
-  }
-  .footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
-  }
-  .footer-basic ul a:hover {
-    opacity:1;
-  }
-  .footer-basic {
-  text-align:center;
-  }
-  .footer-basic > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius: 50%;
-  border:10px solid black;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
-  }
-  .footer-basic > a:hover {
-  opacity:0.9;
-  }
-  .footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
+  
+
+  .FooterName {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+
   }
 }
 
@@ -223,65 +187,29 @@
     padding: 10em;
   }
   .footer {
-    display: flex;
-    justify-content: center;
     bottom: 0%;
     padding: 10em;
-    background-color: darkgray;
+    background-color: lightsteelblue;
     width: 100%;
     height: 100px;
   }
-  .footer-basic {
-  padding: 10 0;
-  background-color:#ffffff;
-  color:#4b4c4d;
+  
+  .FooterTable {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
   }
-  .footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
-  }
-  .footer-basic li {
-  padding:0 10px;
-  }
-  .footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
-  }
-  .footer-basic ul a:hover {
-    opacity:1;
-  }
-  .footer-basic {
-  text-align:center;
-  }
-  .footer-basic > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius: 50%;
-  border:10px solid black;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
-  }
-  .footer-basic > a:hover {
-  opacity:0.9;
-  }
-  .footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
-  }
+  
 
+  .FooterName {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+
+  }
 
 
   .dropdown-menu-right {
