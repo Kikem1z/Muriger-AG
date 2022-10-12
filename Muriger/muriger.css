@@ -9,6 +9,7 @@
   font-size: 1.2em;
   transition: width 0.5s ease-in-out;
 }
+
 #suche:focus {
   font-size: 1.5em;
   width: 50%;
@@ -43,7 +44,7 @@ justify-content: center;
   height: 100px;
 }
 .footer-basic {
-padding:40px 0;
+padding: 10 0;
 background-color:#ffffff;
 color:#4b4c4d;
 }
@@ -64,11 +65,10 @@ text-decoration:none;
 opacity:0.8;
 }
 .footer-basic ul a:hover {
-opacity:1;
+  opacity:1;
 }
 .footer-basic {
 text-align:center;
-padding-bottom:25px;
 }
 .footer-basic > a {
 font-size:24px;
@@ -77,8 +77,8 @@ height:40px;
 line-height:40px;
 display:inline-block;
 text-align:center;
-border-radius:50%;
-border:1px solid #ccc;
+border-radius: 50%;
+border:10px solid black;
 margin:0 8px;
 color:inherit;
 opacity:0.75;
