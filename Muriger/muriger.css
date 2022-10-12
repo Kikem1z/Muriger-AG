@@ -121,16 +121,18 @@ border-style: solid;
 border-width: 0.1%;
 border-color: black;
 }
-.wrapper {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
+
 .Sales2 {
 border-style: solid;
 border-width: 0.1%;
 border-color: black;
 }
+.wrapper {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
 .saleBox {
 width: 30%;
 height: auto;
