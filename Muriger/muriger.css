@@ -273,6 +273,10 @@
   color: red;
   }
   
+  .saleBox:hover {
+    background-color: lightgrey;
+  }
+
   .saleImg {
     display: flex;
     flex-direction: row;
