@@ -1,11 +1,11 @@
 let searchable = [
-    '<a href="https://www.zalando.ch/herren-home/">Boxing Gloves</a>',
-    'Shin Guards',
-    'heavy Bags',
-    'Workout Pads',
-    'Bandages',
-    'Head Gear',
-    'Jump Ropes',
+    '<a href="muriger_hands.html">Boxing Gloves</a>',
+    '<a href="muriger_legs.html">Shin Guards',
+    '<a href="muriger_Accessoires.html">heavy Bags',
+    '<a href="muriger_Accessoires.html">Workout Pads',
+    '<a href="muriger_hands.html">Bandages',
+    '<a href="muriger_legs.html">Head Gear',
+    '<a href="muriger_Accessoires.html">Jump Ropes',
   ];
   
   const searchInput = document.getElementById('search');
