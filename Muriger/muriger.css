@@ -52,6 +52,7 @@
   border-style: solid;
   border-width: 0.3%;
   border-color: black;
+  width: 100%;
   }
   .navigationItem {
   background-color: lightgrey;
@@ -337,24 +338,25 @@ button:focus {
     justify-content: center;
     text-align: center;
     color: black;
-
   }
 
 
   .dropdown-menu-right {
   position: fixed;
-  top: 5%;
+  top: 0px;
   right: 0%;
-  }
+  width: 450px;
+  background-color: lightskyblue;
+}
 
   .btn {
   position: fixed;
   top: 0%;
   right: 0%;
   }
+
   .navigationItem {
-  background-color: lightgrey;
-  
+  background-color: lightskyblue;
   }
 
   .item1:hover {

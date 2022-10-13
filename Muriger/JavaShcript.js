@@ -1,11 +1,11 @@
 let searchable = [
     '<a href="muriger_hands.html#Boxing Gloves">Boxing Gloves</a>',
     '<a href="muriger_legs.html#shinguard">Shin Guards',
-    '<a href="muriger_Accessoires.html">heavy Bags',
-    '<a href="muriger_Accessoires.html">Workout Pads',
+    '<a href="muriger_Accessoires.html#Bags">heavy Bags',
+    '<a href="muriger_Accessoires.html#Workout Pads">Workout Pads',
     '<a href="muriger_hands.html#Bandages">Bandages',
     '<a href="muriger_legs.html#headguard">Head Gear',
-    '<a href="muriger_Accessoires.html">Jump Ropes',
+    '<a href="muriger_Accessoires.html#Jump Ropes">Jump Ropes',
     '<a href="muriger_startseite.html#sale">Sale',
   ];
   
