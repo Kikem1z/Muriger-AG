@@ -1,5 +1,5 @@
 let searchable = [
-    '<a href="muriger_hands.html">Boxing Gloves</a>',
+    '<a href="muriger_hands.html#Boxing Gloves">Boxing Gloves</a>',
     '<a href="muriger_legs.html">Shin Guards',
     '<a href="muriger_Accessoires.html">heavy Bags',
     '<a href="muriger_Accessoires.html">Workout Pads',
