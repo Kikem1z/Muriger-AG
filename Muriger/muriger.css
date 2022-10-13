@@ -198,7 +198,7 @@
   }
   .search {
   display: flex;
-  justify-content: first baseline;
+  justify-content: center;
   }
   #nav-bar {
     position: fixed;
