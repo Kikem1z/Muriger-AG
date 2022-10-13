@@ -183,6 +183,9 @@
 /* Searchbar mobile */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+ {
+  box-sizing: border-box;
+} 
 
 /*body {
   background: #6d7b98;
@@ -354,6 +357,7 @@ button:focus {
 
   .navigationItem {
   background-color: lightskyblue;
+
   }
 
   .item1:hover {
@@ -464,8 +468,6 @@ button:focus {
       width: 27.5%;
     }
     .articleText {
-      display: flex;
-      justify-content: center;
       padding: 10px;
     }
 
@@ -513,6 +515,7 @@ button:focus {
   } */
 
   .container {
+
   }
 
   .wrapper3 {
