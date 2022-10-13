@@ -113,24 +113,8 @@
   object-fit: center;
   }
 
-  a:link {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  a:active {
-    text-decoration: none;
-  }
-  .saleBox a {
-    text-decoration: none;
-  }
+
+
 
   /* NEWS IMAGE */
   .newsImg {
@@ -139,6 +123,15 @@
   align-items: center;
   }
 
+
+
+  /*über uns */
+  .ueberUns {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  }
 
   /* Footer */
   .footer {
@@ -291,29 +284,8 @@
   text-align: center;
   text-decoration: none;
   color: red;
-    
-  }
-  a:link {
-    text-decoration: none;
   }
   
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  a:active {
-    text-decoration: none;
-  }
-  .saleBox:hover {
-    background-color: lightgrey;
-  }
-  .saleBox a {
-    text-decoration: none;
-  }
 
   .saleImg {
     display: flex;
@@ -322,12 +294,35 @@
     height: auto;
     object-fit: center;
   }
-
-
-
+  
   .newsImg {
   display: flex;
   justify-content: center;
   align-items: center;
   }
+
+   /*über uns */
+   .ueberUns {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    }
+
+    .firmText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .infoImages {
+    display: flex;
+    justify-content: center;
+    }
+
 }
