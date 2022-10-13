@@ -6,6 +6,7 @@ let searchable = [
     '<a href="muriger_hands.html">Bandages',
     '<a href="muriger_legs.html">Head Gear',
     '<a href="muriger_Accessoires.html">Jump Ropes',
+    '<a href="muriger_startseite.html">Sale',
   ];
   
   const searchInput = document.getElementById('search');
