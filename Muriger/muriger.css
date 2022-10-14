@@ -25,7 +25,6 @@
     
   .headerPos {
   font-size: 50px;
-  font-style: bold;
   margin-left: 1%;
   height: 94px;
   width: auto;
@@ -115,7 +114,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  object-fit: center;
   border: 1px solid red;
   margin-bottom: 1%;
   color: red;
@@ -127,7 +125,6 @@
   flex-direction: column;
   width: 150px;
   height: auto;
-  object-fit: center;
   }
 
   /* NEWS IMAGE */
@@ -209,7 +206,6 @@
     flex-direction: row;
     width: 450px;
     height: auto;
-    object-fit: center;
     }
  .articleAktion {
     color: red;
@@ -332,7 +328,6 @@ button:focus {
   }
   .headerPos {
   font-size: 50px;
-  font-style: bold;
   margin-left: 2%;
   height: 144px;
   }
@@ -461,7 +456,6 @@ button:focus {
     flex-direction: row;
     width: 457px;
     height: auto;
-    object-fit: center;
   }
   
   .newsImg {
@@ -526,7 +520,6 @@ button:focus {
     flex-direction: row;
     width: 450px;
     height: auto;
-    object-fit: center;
     }
 
     .articleAktion {
