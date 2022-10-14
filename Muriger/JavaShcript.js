@@ -7,6 +7,18 @@ let searchable = [
     '<a href="muriger_legs.html#headguard">Head Gear',
     '<a href="muriger_Accessoires.html#Jump Ropes">Jump Ropes',
     '<a href="muriger_startseite.html#sale">Sale',
+    '<a href="articles/muriger_article001.html">Boxing Gloves/Venum Dragon Flight',
+    '<a href="articles/muriger_article002.html">Boxing Gloves/Golden Star',
+    '<a href="articles/muriger_article006.html">Boxing Gloves/Splashy Gloves',
+    '<a href="articles/muriger_article007">Boxing Gloves/Tyson Gloves',
+    '<a href="articles/muriger_article005.html">Boxing Gloves/Hayabusa Captain America',
+    '<a href="articles/muriger_article004.html">Boxing Gloves/Cleto Reyes 12OZ',
+    '<a href="muriger_hands.html#VenumBandages">Bandages/Venum',
+    '<a href="muriger_hands.html#TysonBandages">Bandages/MikeTyson',
+    '<a href="muriger_hands.html#EverlastBandages">Bandages/Everlast',
+    '<a href="muriger_hands.html#OracleWhiteBandages">Bandages/Oracle',
+    '<a href="muriger_hands.html#OracleBlackBandages">Bandages/Oracle',
+    '<a href="muriger_hands.html#Winnerbandages">Bandages/Winner',
   ];
   
   const searchInput = document.getElementById('search');
