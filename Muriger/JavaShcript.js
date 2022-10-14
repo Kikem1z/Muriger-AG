@@ -13,6 +13,7 @@ let searchable = [
     '<a href="articles/muriger_article007">Boxing Gloves/Tyson Gloves',
     '<a href="articles/muriger_article005.html">Boxing Gloves/Hayabusa Captain America',
     '<a href="articles/muriger_article004.html">Boxing Gloves/Cleto Reyes 12OZ',
+    '<a href="articles/muriger_article003.html">Boxing Gloves/Oracle Gloves',
     '<a href="articles/muriger_article019.html">Bandages/Venum',
     '<a href="articles/muriger_article020.html">Bandages/MikeTyson',
     '<a href="articles/muriger_article021.html">Bandages/Everlast',
@@ -25,9 +26,11 @@ let searchable = [
     '<a href="articles/muriger_article010.html">Shin Guards/Phantom MT-PRO',
     '<a href="articles/muriger_article013.html">Shin Guards/Twins SGS7 Black',
     '<a href="articles/muriger_article014.html">Shin Guards/Ciel Blue1',
+    '<a href="articles/muriger_article008.html">Shin Guards/Oracle Shin Guard',
     '<a href="articles/muriger_article016.html">Headguard/Venom Challenger',
     '<a href="articles/muriger_article017.html">Headguard/Yokkao Pro',
     '<a href="articles/muriger_article018.html">Headguard/Everlast Headguard',
+    '<a href="articles/muriger_article015.html">Headguard/Oracle Headguard',
   ];
   
   const searchInput = document.getElementById('search');
