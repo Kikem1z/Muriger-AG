@@ -10,6 +10,11 @@
   width: auto;
   }
 
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
   #suche {
     width: 5em;
     border: 2px solid black;
@@ -69,7 +74,12 @@
   background-color: white;
   }
 
-
+  .saleTitle {
+    color: red;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+  }
   
   .Sales1 {
   border-style: solid;
@@ -326,6 +336,12 @@ button:focus {
   margin-left: 2%;
   height: 144px;
   }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
   .search {
     display: flex;
     justify-content: center;
@@ -395,8 +411,13 @@ button:focus {
   border-color: black;
   }
 
-
-
+  .saleTitle {
+    color: red;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+  }
   .Sales1 {
   border-style: solid;
   border-width: 0.1%;
@@ -429,12 +450,16 @@ button:focus {
   text-decoration: none;
   color: red;
   }
+
+  .saleBox:hover {
+    background-color: lightgrey;
+  }
   
 
   .saleImg {
     display: flex;
     flex-direction: row;
-    width: 450px;
+    width: 457px;
     height: auto;
     object-fit: center;
   }
